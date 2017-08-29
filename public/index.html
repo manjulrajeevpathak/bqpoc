@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <style type="text/css">
+      body{
+  padding:0; 
+  margin: 0;
+  width: 100%;
+  float: left;
+}
+nav{
+  background-color: #f5a623;
+}
+.nav-container{
+  padding:15px 0 40px 0;
+  max-width: 72em;
+  margin: auto;
+}
+.menu_right{
+  float: right;
+}
+.menu_right ul{
+  list-style: none;
+  font-size: 1em;
+  display: block;
+  width: 100%;
+}
+.menu_right ul{
+  display: flex;
+    padding: 0;
+    margin: 0;
+}
+.menu_right li{
+  margin:0 10px;
+  color: #FFFFFF;
+    padding: 0;
+    font-size: 1.1em;
+    font-weight: 700;
+}
+.top-nav-container{color: white; text-align: left; width: 100%;background-color: #000;}
+.top-nav{
+  text-align: left;color: #fff;
+  max-width: 72em;
+  margin: auto;
+    padding: 5px;
+}
+
+.mydiv{
+  margin-left: 9.1%;
+}
+.logo{
+  background-image: url('logo.svg');
+  padding: 0 111px;
+  vertical-align: top;
+    height: 1.76471em;
+    background-repeat: no-repeat;
+    float: left;
+}
+.wrapper{
+  padding: 30px;
+}
+.realtime-container{
+  width: 100%;
+  float: left;
+}
+.realtime{
+  max-width: 72em;
+  margin: 15px auto 40px auto;
+    padding: 5px;
+}
+.real-status{
+  width: 16.4%;
+  float: left;
+  padding:0 15px 0 0;
+  border-right: dotted 1px #333;
+  margin: 0 10px;
+}
+.real-status:last-child{
+  border:none;
+} 
+.share-type{
+  float: left;
+  font-size: 15px;
+  color: #333333;
+}
+.cell-change-value-per{
+  float: right;
+}
+.cell-change-value{
+  float: left;
+}
+.tileset__cell{
+  float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+.is-bad{
+  color: #FF433D;
+}
+.is-good{
+  color: #1DCC92;
+}
+.price{
+  float: right;
+    font-size: 15px;
+    color: #888888;
+}
+.dropdown-container{
+  background-color: #f2f2f2;
+  padding: 14px 25px;
+}
+.dropdown-container select{
+  padding: 5px;
+  font-size: 25px;
+}
+.futures__summary-details{
+  padding: 14px 0px;
+  margin-bottom: 25px;
+  background-color: #fbfbfb;
+  width: 100%;
+  float: left;
+}
+.futures-spot-price{
+  width: 11%;
+  float: left;
+}
+.futures-spot-price span{
+  display: block;
+  width: 100%;
+  padding: 10px;
+}
+
+
+
+
+h1 {
+  padding: 50px 0;
+  font-weight: 400;
+  text-align: center;
+}
+
+p {
+  margin: 0 0 20px;
+  line-height: 1.5;
+}
+
+main {
+  min-width: 320px;
+  max-width: 1080px;
+  padding: 50px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+section {
+  display: none;
+  padding: 20px 0 0;
+  border-top: 1px solid #ddd;
+}
+
+input {
+  display: none;
+}
+
+.labelmenu{
+  float: le
+}
+
+label {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 15px 25px;
+  font-weight: 600;
+  text-align: center;
+  color: #bbb;
+  border: 1px solid transparent;
+}
+
+
+label:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+input:checked + label {
+  color: #555;
+  border: 1px solid #ddd;
+  border-top: 2px solid orange;
+  border-bottom: 1px solid #fff;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4 {
+  display: block;
+}
+
+@media screen and (max-width: 650px) {
+  label {
+    font-size: 0;
+  }
+  label:before {
+    margin: 0;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  label {
+    padding: 15px;
+  }
+}
+
+
+.table-head{
+  width: 100%;
+  background-color: #f2f2f2;
+}
+.table-head-contents{
+  width: 7%;
+  background-color: #fff;
+  padding: 15px;
+  float: left;
+  text-align: center;
+}
+.table-content{
+  width: 100%;
+  background-color: #fff;
+  padding: 15px;
+  float: left;
+  text-align: center;
+}
+.table-body-contents{
+  width: 8%;
+  padding: 10px;
+  float: left;
+  text-align: center;
+}
+.table-content-row{
+  width: 100%;
+  float: left;
+}
+.table-content-row:hover{
+  background-color: #fff3e6;
+}
+.table-content-row:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+.table-content-row:nth-child(odd):hover {
+  background-color: #fff3e6;
+}
+    </style>
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Bloomberg | Quint</title>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>
